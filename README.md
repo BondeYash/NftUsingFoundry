@@ -1,29 +1,89 @@
-Happy Svg :
-data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjQwMCIgIGhlaWdodD0iNDAwIiB4bWxu
-cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEw
-MCIgZmlsbD0ieWVsbG93IiByPSI3OCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIzIi8+
-CiAgPGcgY2xhc3M9ImV5ZXMiPgogICAgPGNpcmNsZSBjeD0iNjEiIGN5PSI4MiIgcj0iMTIiLz4K
-ICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjgyIiByPSIxMiIvPgogIDwvZz4KICA8cGF0aCBkPSJt
-MTM2LjgxIDExNi41M2MuNjkgMjYuMTctNjQuMTEgNDItODEuNTItLjczIiBzdHlsZT0iZmlsbDpu
-b25lOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDM7Ii8+Cjwvc3ZnPg==
 
-Sad Svg:
-data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNHB4IiBoZWlnaHQ9IjEwMjRweCIgdmlld0JveD0iMCAwIDEwMjQgMTAy
-NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBmaWxsPSIjMzMz
-IiBkPSJNNTEyIDY0QzI2NC42IDY0IDY0IDI2NC42IDY0IDUxMnMyMDAuNiA0NDggNDQ4IDQ0OCA0
-NDgtMjAwLjYgNDQ4LTQ0OFM3NTkuNCA2NCA1MTIgNjR6bTAgODIwYy0yMDUuNCAwLTM3Mi0xNjYu
-Ni0zNzItMzcyczE2Ni42LTM3MiAzNzItMzcyIDM3MiAxNjYuNiAzNzIgMzcyLTE2Ni42IDM3Mi0z
-NzIgMzcyeiIvPgogIDxwYXRoIGZpbGw9IiNFNkU2RTYiIGQ9Ik01MTIgMTQwYy0yMDUuNCAwLTM3
-MiAxNjYuNi0zNzIgMzcyczE2Ni42IDM3MiAzNzIgMzcyIDM3Mi0xNjYuNiAzNzItMzcyLTE2Ni42
-LTM3Mi0zNzItMzcyek0yODggNDIxYTQ4LjAxIDQ4LjAxIDAgMCAxIDk2IDAgNDguMDEgNDguMDEg
-MCAwIDEtOTYgMHptMzc2IDI3MmgtNDguMWMtNC4yIDAtNy44LTMuMi04LjEtNy40QzYwNCA2MzYu
-MSA1NjIuNSA1OTcgNTEyIDU5N3MtOTIuMSAzOS4xLTk1LjggODguNmMtLjMgNC4yLTMuOSA3LjQt
-OC4xIDcuNEgzNjBhOCA4IDAgMCAxLTgtOC40YzQuNC04NC4zIDc0LjUtMTUxLjYgMTYwLTE1MS42
-czE1NS42IDY3LjMgMTYwIDE1MS42YTggOCAwIDAgMS04IDguNHptMjQtMjI0YTQ4LjAxIDQ4LjAx
-IDAgMCAxIDAtOTYgNDguMDEgNDguMDEgMCAwIDEgMCA5NnoiLz4KICA8cGF0aCBmaWxsPSIjMzMz
-IiBkPSJNMjg4IDQyMWE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwLTk2IDB6bTIyNCAxMTJj
-LTg1LjUgMC0xNTUuNiA2Ny4zLTE2MCAxNTEuNmE4IDggMCAwIDAgOCA4LjRoNDguMWM0LjIgMCA3
-LjgtMy4yIDguMS03LjQgMy43LTQ5LjUgNDUuMy04OC42IDk1LjgtODguNnM5MiAzOS4xIDk1Ljgg
-ODguNmMuMyA0LjIgMy45IDcuNCA4LjEgNy40SDY2NGE4IDggMCAwIDAgOC04LjRDNjY3LjYgNjAw
-LjMgNTk3LjUgNTMzIDUxMiA1MzN6bTEyOC0xMTJhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEg
-MC05NiAweiIvPgo8L3N2Zz4=
+
+---
+
+# NFT Using Foundry
+
+This repository contains code for creating and managing NFTs (Non-Fungible Tokens) using Foundry framework. NFTs are unique digital assets that represent ownership or proof of authenticity of a specific item or piece of content, stored on a blockchain. This project provides a foundation for creating your own NFTs and managing them using Foundry.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- **Node.js:** Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
+- **npm:** npm is the package manager for JavaScript. It is included with Node.js. To check if you have npm installed, run `npm -v` in your terminal.
+- **Truffle:** Truffle is a popular development framework for Ethereum. Install it globally using the following command: `npm install -g truffle`.
+
+## Getting Started
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/BondeYash/NftUsingFoundry.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd NftUsingFoundry
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. **Compile Smart Contracts:**
+
+   Compile the smart contracts using Truffle:
+
+   ```bash
+   truffle compile
+   ```
+
+2. **Migrate Smart Contracts:**
+
+   Migrate the smart contracts to the blockchain:
+
+   ```bash
+   truffle migrate
+   ```
+
+3. **Run Tests:**
+
+   Run the tests to ensure everything is working as expected:
+
+   ```bash
+   truffle test
+   ```
+
+4. **Interact with the Smart Contracts:**
+
+   You can interact with the deployed smart contracts using the provided JavaScript files in the `scripts/` directory.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions, feel free to create an issue or a pull request.
+
+1. Fork the repository on GitHub.
+2. Clone your forked repository to your local machine.
+3. Create a new branch and make your changes.
+4. Commit your changes and push your branch to your fork on GitHub.
+5. Create a pull request to submit your changes for review.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the license terms.
+
+---
