@@ -1,0 +1,11 @@
+{
+    "name": "BullDog",
+    "description": "An Dangerous Dog with Blue Hat ",
+    "image": "https://ipfs.io/ipfs/QmeDZYQK46b5zmfhM6hSdfwsiKTyfAwn1wvPuWmNUShs6t?filename=imagenft1.jpg",
+    "attributes": [
+        {
+            "trait_type": "Dangerous Pilot",
+            "value": 100
+        }
+    ]
+}
